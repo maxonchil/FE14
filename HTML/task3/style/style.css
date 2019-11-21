@@ -1,0 +1,32 @@
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+}
+.header__navigation {
+	width:90%;
+}
+.header__navigation-list {
+	list-style-type: none;
+	display:flex;
+	justify-content: space-between;
+	padding:0 20px;
+	font-size: 2.5em;
+	}
+	.header__navigation-list a {
+		text-decoration: none;
+		color:#000;
+	}
+	.hader__social-networks {
+		display:flex;
+		justify-content: space-between;
+		width:7%;
+		padding-top:15px;
+	}
+.instagram-logo, .youtube-logo, .twitch-logo {
+	width:20px;
+}
