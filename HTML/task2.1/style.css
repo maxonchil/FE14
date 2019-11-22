@@ -1,6 +1,14 @@
-.title:first-child {
-    list-style-type: none;
+table {
+    border:1px solid #000;
 }
-h3 {
-    margin:0;
+
+tr,td,th {
+    border: 1px solid #000;
+    width:50px;
+}
+tr td:first-child{
+    width:100px;
+}
+tfoot tr td:last-child{
+text-align:center;
 }
