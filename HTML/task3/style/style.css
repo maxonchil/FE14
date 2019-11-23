@@ -1,3 +1,4 @@
+/* General styles*/
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing        : border-box;
@@ -5,12 +6,18 @@
 	padding           : 0;
 }
 
+body {
+	font-family: 'Solway', serif;
+}
+
 a:focus,
-input:focus,
 video:focus,
 button:focus {
 	outline: 2px solid #fff;
+}
 
+input:focus {
+	outline: 2px solid #a9abab;
 }
 
 .container {
@@ -18,6 +25,12 @@ button:focus {
 	margin: 0 auto;
 }
 
+textarea {
+	resize: none;
+}
+
+
+/* Individual styles*/
 
 .header {
 	background-color: #39f7eb;
@@ -71,8 +84,9 @@ button:focus {
 	width           : 7%;
 	padding-top     : 15px;
 }
+
 .header__social-networks a:focus {
-	outline:none;
+	outline: none;
 }
 
 .instagram-logo,
@@ -199,7 +213,7 @@ button:focus {
 	-webkit-box-direction: normal;
 	-ms-flex-direction   : column;
 	flex-direction       : column;
-	height               : 540px;
+	height               : 574px;
 	overflow             : auto;
 	margin-left          : 40px;
 	margin-top           : 10px;
@@ -207,7 +221,7 @@ button:focus {
 
 .media__aside-video {
 	width  : 278px;
-	padding: 18px 0;
+	padding: 27px 0;
 	margin : 0 auto;
 }
 
@@ -215,28 +229,70 @@ button:focus {
 	padding-top: 0px;
 }
 
-textarea {
-	resize: none;
-}
-
 .contacts {
-	clear: left;
+	background-color: #2d8a8a;
+	padding         : 20px;
 }
 
-.popup-button,
-#contextmenu {
-	display: inline;
+.contacts__title {
+	text-align   : center;
+	font-size    : 2.4em;
+	margin-bottom: 20px;
+	color        : #fff;
 }
 
-.contacts-wrapp {
-	display        : -webkit-box;
-	display        : -ms-flexbox;
-	display        : flex;
-	-ms-flex-pack  : distribute;
-	justify-content: space-around;
+.contacts__wrapp {
+	display         : -webkit-box;
+	display         : -ms-flexbox;
+	display         : flex;
+	-ms-flex-pack   : distribute;
+	justify-content : space-around;
+	background-color: #37b8b8;
+	padding         : 10px;
 }
 
-.contacts-right__form {
+.contacts__left-li {
+	list-style-type: none;
+}
+
+.contacts__left-li a {
+	text-decoration: none;
+}
+
+.contacts__left-li a:link {
+	color: #000;
+}
+
+.contacts__left-form {
+	border : 1px solid #000;
+	margin : 10px 0;
+	padding: 3px;
+}
+
+.contacts__left-formTitle {
+	text-align : center;
+	font-weight: 700;
+	margin     : 5px 0;
+}
+
+.contacts__instagram,
+.contacts__youtube,
+.contacts__twitch,
+.contacts__telegram,
+.contacts__gmail {
+	width: 13px;
+}
+
+.contacts__right {
+	width: 42%;
+}
+
+.contacts__right-title {
+	text-align: center;
+	font-size : 1.3em;
+}
+
+.contacts__right-form {
 	display              : -webkit-box;
 	display              : -ms-flexbox;
 	display              : flex;
@@ -244,10 +300,42 @@ textarea {
 	-webkit-box-direction: normal;
 	-ms-flex-direction   : column;
 	flex-direction       : column;
+	text-align           : center;
 }
 
-.contacts-right__form input {
-	margin: 10px 0;
+.contacts__right-inputWrap {
+	display              : -webkit-box;
+	display              : -ms-flexbox;
+	display              : flex;
+	-webkit-box-orient   : horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction   : row;
+	flex-direction       : row;
+	-webkit-box-pack     : justify;
+	-ms-flex-pack        : justify;
+	justify-content      : space-between;
+}
+
+.contacts__right-input {
+	text-align : center;
+	line-height: 31px;
+	border     : 1px solid #a9abab;
+	width      : 240px;
+	margin     : 10px 0;
+}
+
+.contacts__right-reset,
+.contacts__right-submit {
+	width     : 180px;
+	padding   : 5px;
+	margin-top: 5px;
+}
+
+.footer {
+	background-color: #1e3636;
+	color           : #fff;
+	padding         : 20px 0;
+	font-size       : 0.8em;
 }
 
 .footer__wrapp {
@@ -258,5 +346,37 @@ textarea {
 	-ms-flex-pack   : justify;
 	justify-content : space-between;
 	padding         : 0 10px;
-	margin          : 20px 0;
+}
+
+.footer__right-popup {
+	font-size: 0.8em;
+}
+
+#dialog {
+	margin: 0 auto;
+}
+
+.dialog__title {
+	display   : block;
+	text-align: center;
+}
+
+.dialog__button-wrap {
+	display        : -webkit-box;
+	display        : -ms-flexbox;
+	display        : flex;
+	-ms-flex-pack  : distribute;
+	justify-content: space-around;
+	padding        : 3px;
+}
+
+#pop-cancel,
+#pop-confirm {
+	width        : 80px;
+	margin-bottom: 3px;
+}
+
+.popup-button,
+#contextmenu {
+	display: inline;
 }
