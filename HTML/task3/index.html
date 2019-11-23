@@ -16,199 +16,235 @@
 <body>
 
 	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<nav class="header__navigation">
+					<ul class="header__navigation-list">
+						<li><a tabindex="1" href="#about-me">About me</a></li>
+						<li><a tabindex="2" href="vk.com/be3x_fanpage">FanGroup</a></li>
+						<li><a tabindex="3" href="#contacts">Contacts</a></li>
+						<li><a tabindex="4" href="#media">Media</a></li>
+					</ul>
+				</nav>
 
-		<nav class="header__navigation">
-			<ul class="header__navigation-list">
-				<li><a tabindex="1" href="#about-me">About me</a></li>
-				<li><a tabindex="2" href="vk.com/be3x_fanpage">FanGroup</a></li>
-				<li><a tabindex="3" href="#contacts">Contacts</a></li>
-				<li><a tabindex="4" href="#media">Media</a></li>
-			</ul>
-		</nav>
-
-		<div class="header__social-networks">
-			<a href="https://www.instagram.com/be3x_voice/"><img class="instagram-logo" src="img/instagram-logo.png"
-					alt="instagram logo"></a>
-			<a href="https://www.youtube.com/channel/UCu8SnnbKO8JQ8A7BXR3DnPA"><img class="youtube-logo"
-					src="img/youtube-logo.png" alt="Youtube logo"></a>
-			<a href="twitch.tv/be3x_voice"><img class="twitch-logo" src="img/twitch-logo.png" alt="Twitch logo"></a>
+				<div class="header__social-networks">
+					<a tabindex="5" href="https://www.instagram.com/be3x_voice/"><img title="Instagram"
+							class="instagram-logo" src="img/instagram-logo.png" alt="instagram logo"></a>
+					<a tabindex="6" href="https://www.youtube.com/channel/UCu8SnnbKO8JQ8A7BXR3DnPA"><img title="YouTube"
+							class="youtube-logo" src="img/youtube-logo.png" alt="Youtube logo"></a>
+					<a tabindex="7" href="twitch.tv/be3x_voice"><img title="Twitch" class="twitch-logo"
+							src="img/twitch-logo.png" alt="Twitch logo"></a>
+				</div>
+			</div>
 		</div>
-
 	</header>
 
 	<main>
 		<article class="about-me" id="about-me">
-			<div class="about-me__left">
+			<div class="container">
+				<div class="about-me__left">
+					<picture>
+						<source srcset="img/about-me320.jpg" photo="(max-width:320px) ">
+						<source srcset="img/about-me770.jpg" photo="(max-width:770px)">
+						<source srcset="img/about-me920.jpg" photo="(max-width:920px)">
+						<img class="about-me__image" src="img/about-me.jpg" alt="My photo">
+					</picture>
 
-				<picture class="about-me__image">
-					<source srcset="img/about-me320.jpg" media="(max-width:320px) ">
-					<source srcset="img/about-me770.jpg" media="(max-width:770px)">
-					<source srcset="img/about-me920.jpg" media="(max-width:920px)">
-					<img src="img/about-me.jpg" alt="My photo">
-				</picture>
+					<canvas class="about-me__canvas" id="canvas">
+						Your browser can not use canvas element:(
+					</canvas>
 
-				<canvas class="contacts__canvas" id="canvas">
-					Your browser can not use canvas element:(
-				</canvas>
+					<div class="about-me__left-content">
+						Hello every<wbr>one<wbr> who still does not know me!
+						My name is Maksym Koval, I work under the nickname Be3x.
+						Many of you know me from the world of e-sports, and many from the world of anime and manga, but let me tell you more about myself.
 
-				Someassholebig<wbr>hitincredi<wbr>blewordsadasd<wbr>someassholebig<wbr>hitincredi<wbr>blewordsadasd<wbr>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ullam nostrum praesentium aut iure ex
-			ratione optio molestiae, voluptatum asperiores, hic, non accusantium labore est eaque tempore consequatur!
-			Sapiente, repellat.<wbr>
-			Lvl of self-realzation:
-				<meter value="3" min="0" max="10"></meter>
+						I graduated from the most ordinary rural school, after which I went abroad to study in Poland, where I graduated from university in 3 years.
+						During training, I worked part-time at Starbucks and got the title of coffee master there, as well as in my free time I starred in TV shows on the
+						3rd plan
+						After graduation, I opened my own business, which was built on the resale of cryptocurrencies, currencies in online games and mining. I have been doing
+						this for about 2 years. After some time, my business partner and I terminated our business relationship and went into free swimming.
 
-				<div class="about-me__songs">
-					<h4>My Favorite songs</h4>
-					<audio tabindex="5" src="audio/track1.mp3" controls></audio>
-					<audio tabindex="6" src="audio/track2.mp3" controls></audio>
-					<details>
-						<summary>Полный список моих любимых треков</summary>
-						<p>Track1</p>
-						<p>Track2</p>
-						<p>Track3</p>
-						<p>Track4</p>
-					</details>
+						Soon, I tried myself as a commentator on e-sports tournaments, in which I achieved some success, was invited to many tournaments, both online and LAN.
+						He worked for such famous studios as Starladder, UESF, AKS and as many other professional teams! The largest number of viewers who gathered
+						on my broadcast is <mark>2500 people!</mark>
+
+						By the way, I also tried myself in video blogging! I led a channel on anime topics and I really
+						liked it, and I like it now,
+						but I don’t have so much free time. Two of my videos collected 30,000 views on YouTube channel.
+						Can
+						you imagine?
+
+						In general, after commenting, I went to work working in politics. This is not the happiest
+						moment of
+						my life, but I learned a lot there.
+						I worked in the team of the presidential candidate and also in the team of the deputy who
+						dabbled in
+						parliament and now, here I am,
+						at the courses of the best company in Ukraine, preparing to become a programmer :)
+
+						<p>So after all that I tried and experienced, I can tell you that a <wbr>
+						lvl of my <wbr>self-<wbr>realzation<wbr> is: <meter value="3" min="0" max="10"></meter></p>
+
+					</div>
 				</div>
 
-			</div>
-			
-			<div class="about-me__right">
-				<table>
-					<h2>Maksym Koval (Be3x) skills</h2>
-					<thead>
-						<tr>
-							<th>List of skills</th>
-							<th>LvL of skill</th>
-						</tr>
-					</thead>
+				<div class="about-me__right">
+					<table class="about-me__table">
+						<h3 class="about-me__right-title">Maksym Koval (Be3x) skills</h2>
+							<thead>
+								<tr>
+									<th>List of skills</th>
+									<th>LvL of skill</th>
+								</tr>
+							</thead>
 
-					<tbody>
-						<tr>
-							<td>Java Script</td>
-							<td><progress value="2.3" max="5"></progress></td>
-						</tr>
-						<tr>
-							<td>CSS</td>
-							<td><progress value="3.2" max="5"></progress></td>
-						</tr>
-						<tr>
-							<td>HTML</td>
-							<td><progress value="3.2" max="5"></progress></td>
-						</tr>
-						<tr>
-							<td>English</td>
-							<td><mark>B1</mark></td>
-						</tr>
-						<tr>
-							<td><bdi dir="ltr">coffee making (וכשר כולל)</bdi></td>
-							<td><progress value="5" max="5"></progress></td>
-						</tr>
-						<tr>
-							<td>Commentating</td>
-							<td><progress value="3.2" min="0" max="5"></progress></td>
-						</tr>
-					</tbody>
+							<tbody>
+								<tr>
+									<td>Java Script</td>
+									<td><progress value="2.3" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>CSS</td>
+									<td><progress value="3.2" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>HTML</td>
+									<td><progress value="3.2" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>English</td>
+									<td><progress value="4" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td><bdi dir="ltr">coffee making (וכשר כולל)</bdi></td>
+									<td><progress value="5" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>Commentating</td>
+									<td><progress value="3.2" min="0" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>Curiosity</td>
+									<td><progress value="5" min="0" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>Learning ability</td>
+									<td><progress value="5" min="0" max="5"></progress></td>
+								</tr>
+								<tr>
+									<td>Organizational skills</td>
+									<td><progress value="5" min="0" max="5"></progress></td>
+								</tr>
+							</tbody>
 
-					<tfoot>
-						<tr>
-							<td colspan="2">
-								<p><progress value="0" min="0" max="5"></progress> - minimal lvl</p>
-								<p><progress value="5" min="0" max="5"></progress> - maximum lvl</p>
-							</td>
-						</tr>
-					</tfoot>
+							<tfoot>
+								<tr>
+									<td colspan="2">
+										<p><progress value="0" min="0" max="5"></progress> - minimal lvl</p>
+										<p><progress value="5" min="0" max="5"></progress> - maximum lvl</p>
+									</td>
+								</tr>
+							</tfoot>
 
-				</table>
+					</table>
 
+				</div>
+				<div class="about-me__songs">
+					<h4 class="about-me__songs-title">My favorite songs</h4>
+					<audio class="about-me__songs-item" tabindex="8" src="audio/track1.mp3" controls></audio>
+					<audio class="about-me__songs-item" tabindex="9" src="audio/track2.mp3" controls></audio>
+					<audio class="about-me__songs-item" tabindex="10" src="audio/track3.mp3" controls></audio>
+					<details class="about-me__details">
+						<summary class="about-me__summary" title="Click on me">A complete list of my favorite songs:
+						</summary>
+						<p class="about-me__details-item">The Rose - RED</p>
+						<p class="about-me__details-item">Kim Woo Song - Face</p>
+						<p class="about-me__details-item">Shawn Mendes, Camila Cabello - Seniorita</p>
+						<p class="about-me__details-item">BTS - Truth Untold</p>
+					</details>
+				</div>
 			</div>
 		</article>
 
+		<section id="media" class="media ">
+			<div class="container">
+				<h3 class="media__title">My photo</h3>
+				<div class="media__inner">
+					<div class="media__photo">
+						<div class="media__photo-inner">
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_1.jpg" alt="Photo on a tree">
+								<figcaption class="media__photo-descr">Photoshoot on a beach <time>10:00
+										<wbr>11-<wbr>8-<wbr>2018</time> </figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_2.JPG" alt="Photo with mike">
+								<figcaption class="media__photo-descr">KNUTE Dota2 League Season 1 <time>12:40
+										<wbr>10-<wbr>9-<wbr>2018</time></figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_3.jpg" alt="Photo with techboy">
+								<figcaption class="media__photo-descr">KNUTE Dota2 League Season 1 <time>12:40
+										<wbr>10-<wbr>9-<wbr>2018</time></figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_4.jpg" alt="Photo in studio">
+								<figcaption class="media__photo-descr">RedBull River Runes on studio <time>19:10
+										<wbr>22-<wbr>12-<wbr>2018</time></figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_5.jpg" alt="Photo with Casper">
+								<figcaption class="media__photo-descr">RedBull River Runes "Casper" <time>19:30
+										<wbr>22-12-2018</time>
+								</figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_6.jpg" alt="Photo on a press wall">
+								<figcaption class="media__photo-descr">RedBull River Runes<time>21:30
+										<wbr>22-<wbr>12-<wbr>2018</time></figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_7.JPG" alt="Profile photo with mike">
+								<figcaption class="media__photo-descr">KNUTE Dota2 League Season 1 <time>14:40
+										<wbr>10-<wbr>9-<wbr>2018</time></figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_8.jpg" alt="Photo o na beach">
+								<figcaption class="media__photo-descr">Photoshoot on a beach <time>22:28
+										<wbr>11-<wbr>10-<wbr>2018</time></figcaption>
+							</figure>
+							<figure>
+								<img class="media__photo-item" src="img/my-photo_9.jpg" alt="Photo o na beach">
+								<figcaption class="media__photo-descr">Photoshoot on a park <time>12:28
+										<wbr>12-<wbr>08-<wbr>2018</time></figcaption>
+							</figure>
+						</div>
+					</div>
 
 
-		<section class="media" id="media">
-			<h3>My Media</h3>
-			<div class="media__inner">
-				<figure>
-					<img class="media-item" src="img/my-photo_1.jpg" alt="Photo on a tree">
-					<figcaption>Photoshoot on a beach <time>10:00 11-8-2018</time> </figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_2.JPG" alt="Photo with mike">
-					<figcaption>KNUTE Dota2 League Season 1 <time>12:40 10-9-2018</time></figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_3.jpg" alt="Photo with techboy">
-					<figcaption>KNUTE Dota2 League Season 1 <time>12:40 10-9-2018</time></figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_4.jpg" alt="Photo in studio">
-					<figcaption>RedBull River Runes 1x1 on studio <time>19:10 22-12-2018</time></figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_5.jpg" alt="Photo with Casper">
-					<figcaption>RedBull River Runes 1x1 with "Casper" <time>19:30 22-12-2018</time> </figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_6.jpg" alt="Photo on a press wall">
-					<figcaption>RedBull River Runes 1x1 <time>21:30 22-12-2018</time></figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_7.JPG" alt="Profile photo with mike">
-					<figcaption>KNUTE Dota2 League Season 1 <time>14:40 10-9-2018</time></figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_8.jpg" alt="Photo o na beach">
-					<figcaption>Photoshoot on a beach <time>22:28 11-10-2018</time></figcaption>
-				</figure>
-				<figure>
-					<img class="media-item" src="img/my-photo_9.jpg" alt="Photo o na beach">
-					<figcaption>Photoshoot on a park <time>12:28 12-08-2018</time></figcaption>
-				</figure>
-
+					<aside class="media__aside">
+						<video tabindex="11" controls class="media__aside-video">
+							<source src="video/video1.mp4">
+							<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
+						</video>
+						<video tabindex="12" controls class="media__aside-video">
+							<source src="video/video2.mp4" type="video/mp4">
+							<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
+						</video>
+						<video tabindex="13" controls class="media__aside-video">
+							<source src="video/video3.mp4">
+							<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
+						</video>
+						<video tabindex="14" controls class="media__aside-video">
+							<source src="video/video4.mp4">
+							<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
+						</video>
+						<embed tabindex="15" class="media__aside-video" src="video/snoop.gif">
+					</aside>
+				</div>
 			</div>
 		</section>
-
-		<aside class="aside">
-			<video tabindex="7" controls class="aside-video">
-				<source src="video/video1.mp4">
-				<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
-			</video>
-			<video tabindex="8" controls class="aside-video">
-				<source src="video/video2.mp4" type="video/mp4">
-				<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
-			</video>
-			<video tabindex="8" controls class="aside-video">
-				<source src="video/video3.mp4">
-				<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
-			</video>
-			<video tabindex="9" controls class="aside-video">
-				<source src="video/video4.mp4">
-				<track kind="subtitles" src="subt/subtitles_1.srt" srclang="en" label="Subtitles_1" />
-			</video>
-			<embed tabindex="10" class="aside-video" src="video/snoop.gif">
-		</aside>
 
 		<section class="contacts" id="contacts">
 			<div class="contacts-wrapp">
@@ -217,18 +253,18 @@
 						<lt>
 							<h4>Contacts</h4>
 						</lt>
-						<li><a tabindex="11" href="">Instagram</a></li>
-						<li><a tabindex="12" href="">Telegram</a></li>
-						<li><a tabindex="13" href="">Youtube</a></li>
-						<li><a tabindex="14" href="">Twitch</a></li>
-						<li><a tabindex="15" href="mailto:">maxonchil@gmail.com</a></li>
+						<li><a tabindex="16" href="">Instagram</a></li>
+						<li><a tabindex="17" href="">Telegram</a></li>
+						<li><a tabindex="18" href="">Youtube</a></li>
+						<li><a tabindex="19" href="">Twitch</a></li>
+						<li><a tabindex="20" href="mailto:">maxonchil@gmail.com</a></li>
 					</ul>
 
 					<p>Вы можете рассчитать стоимость моей работы:</p>
 					<form id="calculate" oninput="result.value=days.value * 300 + ' UAH'">
 
 						<label for="calculate_input">Введите количество дней</label>
-						<input tabindex="16" type="number" name="days" id="calculate_input">
+						<input tabindex="21" type="number" name="days" id="calculate_input">
 
 						<p>Стоимость моей работы, будет составлять:</p>
 						<output name="result" id="calculate_result"></output>
@@ -241,25 +277,27 @@
 				<div class="contacts-right">
 					<h4>Обратная связь</h4>
 					<form action="#" method="POST" id="callback" class="contacts-right__form">
-						<input tabindex="17" name="name" type="text" placeholder="Ваше имя" required>
-						<input tabindex="18" name="e-mail" type="email" placeholder="Ваш e-mail" required>
-						<input tabindex="19" name="appeal" type="text" placeholder="Суть Вашего обращения" list="contacts-appeal" required>
+						<input tabindex="22" name="name" type="text" placeholder="Ваше имя" required>
+						<input tabindex="23" name="e-mail" type="email" placeholder="Ваш e-mail" required>
+						<input tabindex="24" name="appeal" type="text" placeholder="Суть Вашего обращения"
+							list="contacts-appeal" required>
 
-						<datalist tabindex="20" id="contacts-appeal">
+						<datalist tabindex="25" id="contacts-appeal">
 							<option value="Реклама"></option>
 							<option value="Предложение работы"></option>
 							<option value="Фан-письмо"></option>
 							<option value="Другое"></option>
 						</datalist>
 
-						<textarea tabindex="21" name="message" cols="30" rows="10" placeholder="Суть вашего сообщения" maxlength="1000" required> 
-							
+						<textarea tabindex="26" name="message" cols="30" rows="10" placeholder="Суть вашего сообщения"
+							maxlength="1000" required>
+
 						</textarea>
 
-						<input tabindex="22" type="submit" name="contacts-submit" id="">
-						<input tabindex="23" type="reset" name="contacts-reset">
+						<input tabindex="27" type="submit" name="contacts-submit" id="">
+						<input tabindex="28" type="reset" name="contacts-reset">
 					</form>
-					
+
 				</div>
 			</div>
 		</section>
@@ -277,7 +315,7 @@
 						Если заметили какой-то баг, оповестите нас пожалуйста об этом, нажав на
 
 						<menu class="popup-button">
-							<button tabindex="24" id="fix-button">Эту кнопку</button>
+							<button tabindex="29" id="fix-button">Эту кнопку</button>
 						</menu>
 
 						<menu id="contextmenu" type="context">
@@ -295,7 +333,7 @@
 			<form method="dialog">
 				<section>
 					<p><label for="pop-up">Whats broke?</label>
-						<select tabindex="25" id="pop-up" name="pop-up">
+						<select tabindex="30" id="pop-up" name="pop-up">
 							<option disabled>Chose one of:</option>
 							<option>Long boot time</option>
 							<option>Items move out</option>
@@ -303,14 +341,15 @@
 							<option>Can not send form</option>
 							<option>Other</option>
 						</select></p>
-					<textarea tabindex="26" name="pop-textarea" cols="30" rows="10" placeholder="Your message" required maxlength="500">
+					<textarea tabindex="31" name="pop-textarea" cols="30" rows="10" placeholder="Your message" required
+						maxlength="500">
 
 					</textarea>
 				</section>
 
 				<menu>
-					<button tabindex="27" id="pop-cancel" type="reset">Cancel</button>
-					<button tabindex="28" type="submit">Confirm</button>
+					<button tabindex="32" id="pop-cancel" type="reset">Cancel</button>
+					<button tabindex="33" type="submit">Confirm</button>
 				</menu>
 
 			</form>
