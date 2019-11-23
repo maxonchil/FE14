@@ -71,6 +71,9 @@ button:focus {
 	width           : 7%;
 	padding-top     : 15px;
 }
+.header__social-networks a:focus {
+	outline:none;
+}
 
 .instagram-logo,
 .youtube-logo,
@@ -196,15 +199,15 @@ button:focus {
 	-webkit-box-direction: normal;
 	-ms-flex-direction   : column;
 	flex-direction       : column;
-	height               : 558px;
+	height               : 540px;
 	overflow             : auto;
 	margin-left          : 40px;
-	margin-top           : 8px;
+	margin-top           : 10px;
 }
 
 .media__aside-video {
 	width  : 278px;
-	padding: 22px 0;
+	padding: 18px 0;
 	margin : 0 auto;
 }
 
