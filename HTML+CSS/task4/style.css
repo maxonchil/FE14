@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Main font";
+    src: url("fonts/airfool.otf");
+}
+@font-face {
+    font-family: "Spare font";
+    src: url("fonts/housebroken.ttf");
+}
+
+@font-face {
+    font-family: "Emergency font";
+    src: url("fonts/roadhouse.ttf");
+}
+.task1{
+font-family: "Main font";
+color:#fffe3e;
+font-size: 1em;
+letter-spacing: 1px;
+}
+.task1 input {
+    font-family: inherit;
+    font-size:16px;
+    line-height: 31px;
+}
+.task1 input::placeholder {
+    font-family: Arial;
+}
+.task1 button {
+    width:120px;
+}
+.task2_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    width:175px;
+    border: 2px solid #D2F3F9;
+    
+}
+.task2_li {
+    padding:0 10px;
+    background-color: #00BAD7;
+}
+.task2_li a{
+    text-decoration:none;
+    color:#EAF9FB;
+}
+
+
+.task3 label{
+  display: inline-block;  
+}
+.task3 label input{
+  display: none;
+}
+.task3 label input + span{
+  position: relative;
+  padding: 15px 30px 15px 30px;    
+  white-space: nowrap;  
+}
+.task3 label input + span:before{
+  content: '';
+  position: absolute; top: 50%; left: 0;
+  margin-top: -10px;
+  width: 15px;
+  height: 15px;
+  border:2px solid #3B7F27;
+  border-radius: 50%;
+  background-color: #F2F2F2;
+}
+.task3 label input + span:after{
+  content: '';
+  position: absolute; top: 63.5%; left: 6.7px;
+  margin-top: -10px;
+  width: 6px;
+  height: 6px;
+  background-color: #D6D6D6;
+  border-radius: 50%;
+}
+.task3  input:checked + span:after{
+  background: #2F6A1D;
+}
+.task3  input:checked + span:before{
+  background: #E8EBED;
+  border:2px solid #377D22;
+  border-radius: 50%;
+}
