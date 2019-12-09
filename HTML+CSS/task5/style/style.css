@@ -79,10 +79,12 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
 .header li {
     list-style-type: none;
     text-align: center;
+    
 }
 
 .header li[class*="submenu"] {
     background-color: #393939;
+    border-top:2px solid #474747;
 }
 
 .header__submenu-item {
@@ -576,7 +578,7 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
 }
 
 .contacts__support-list h5 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     margin: 0;
     
 }
@@ -585,13 +587,18 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
     list-style-type: none;
     margin: 0;
 }
+.contacts__support-list a {
+    color:rgb(136, 7, 7);
+}
 
-.contacts__support-list li {
+.contacts__support-list li:not(:first-child) {
     padding: 5px 0;
 }
 
+
 .contacts__bold {
     font-weight: 700;
+    color:rgb(136, 7, 7);
 }
 
 .contacts__connection-list li {
