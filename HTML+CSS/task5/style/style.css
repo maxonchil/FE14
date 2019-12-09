@@ -488,7 +488,10 @@ transform: scale(1.1);
 }
 .contacts__social-list {
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+.contacts__social-list li{
+    padding: 5px 0;
 }
 
 .contacts__social-list a{
@@ -498,6 +501,10 @@ transform: scale(1.1);
 
 .contacts__instagram-logo,
 .contacts__facebook-logo,
-.contacts__github-logo {
-    width: 20px;
+.contacts__github-logo,
+.contacts__skype-logo {
+    width: 15px;
+}
+.contacts__social-list, .contacts__support-list, .contacts__connection-list {
+list-style-type: none;
 }
