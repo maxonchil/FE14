@@ -5,20 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/style.css">
     <title>Task 5</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a href="#"> <img class="header__logo" src="img/header_logo.png" alt="header logo"></a>
+                <a tabindex="1" href="#"> <img class="header__logo" src="img/header_logo.png" alt="header logo"></a>
+                <input type="text" name="" id="header__burger">
+                <label for="#header__burder">
+                    <div class="header__burger-line first-line"></div>
+                    <div class="header__burger-line second-line"></div>
+                    <div class="header__burger-line third-line"></div>
+                    <div class="header__burger-line fourth-line"></div>
+                </label>
+                
                 <nav class="header__nav">
-
                     <ul class="header__menu">
-
-                        <li class="header__menu-li1"><a href="#">Main info</a>
+                        <li class="header__menu-li1">
+                            <a tabindex="2" href="#">Main info</a>
                             <ul class="header__submenu1">
                                 <li class="header__submenu-item"><a href="#advantages">Our advantages</a></li>
                                 <li class="header__submenu-item "><a href="#team">Team</a></li>
@@ -26,10 +34,12 @@
                             </ul>
                         </li>
 
-                        <li class="header__menu-li2"><a href="#about">About us</a>
+                        <li class="header__menu-li2">
+                            <a tabindex="3" href="#about">About us</a>
                             <ul class="header__submenu2">
                                 <li class="header__submenu-item"><a href="#about">Our company</a></li>
-                                <li class="header__submenu2-li2 header__submenu-item"><a href="#team">Team</a>
+                                <li class="header__submenu2-li2 header__submenu-item"><a tabindex="7"
+                                        href="#team">Team</a>
                                     <ul class="header__submenu2-1">
                                         <li class="header__submenu-item"><a href="#member1">Alex Milewicz</a></li>
                                         <li class="header__submenu-item"><a href="#member2">Hugo Blanka</a></li>
@@ -42,17 +52,19 @@
                             </ul>
                         </li>
 
-                        <li class="header__menu-li3"><a href="#advantages"> Advantages</a></li>
+                        <li class="header__menu-li3"><a tabindex="4" href="#advantages"> Advantages</a></li>
 
-                        <li class="header__menu-li4"><a href="#contacts">Contacts</a>
+                        <li class="header__menu-li4"><a tabindex="5" href="#contacts">Contacts</a>
                             <ul class="header__submenu4">
-                                <li class="header__submenu-item"><a target="_blank" href="https://instagram.com/be3x_voice">Instagram</a></li>
-                                <li class="header__submenu-item"><a target="_blank" href="https://facebook/be3x_voice">Facebook</a></li>
+                                <li class="header__submenu-item"><a target="_blank"
+                                        href="https://instagram.com/be3x_voice">Instagram</a></li>
+                                <li class="header__submenu-item"><a target="_blank"
+                                        href="https://facebook.com/maxonchil">Facebook</a></li>
                                 <li class="header__submenu-item"><a href="skype:richard77352">Skype</a></li>
-                                <li class="header__submenu-item"><a target="_blank" href="https://github.com/maxonchil">GitHub</a></li>
+                                <li class="header__submenu-item"><a target="_blank"
+                                        href="https://github.com/maxonchil">GitHub</a></li>
                             </ul>
                         </li>
-
                     </ul>
                 </nav>
             </div>
@@ -61,11 +73,8 @@
     <section class="main">
         <div class="container">
             <div class="main__inner">
-
                 <div class="main__left">
-                    <h1 class="main__left-title">
-                        Alpari
-                    </h1>
+                    <h1 class="main__left-title"> Alpari </h1>
                 </div>
                 <div class="main_right">
                     <p class="main__right-title">Your money Our future</p>
@@ -103,31 +112,32 @@
                     <div class="about__description-map">
                         <iframe class="about__map-frame"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5483952061895!2d30.458624915248794!3d50.449511979475204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce82b9d930e5%3A0x8b1e1e0c5175e2f!2z0JrQn9CGINGW0LwuINCG0LPQvtGA0Y8g0KHRltC60L7RgNGB0YzQutC-0LPQviwg0LrQvtGA0L_Rg9GBIOKEljE!5e0!3m2!1sru!2sua!4v1575881857293!5m2!1sru!2sua"
-                            allowfullscreen=""></iframe>
+                            allowfullscreen="">
+                        </iframe>
                         <div class="about__contacts">
                             <div class="about__contacts-item">
-                                <p><a href="tel:0800800800">Tel: 0800800800</a></p>
-                                <p><a href="mailto:gmail@gmail.com">Mail: gmail@gmail.com</a></p>
+                                <p><a tabindex="6" href="tel:0800800800">Tel: 0800800800</a></p>
+                                <p><a tabindex="7" href="mailto:gmail@gmail.com">Mail: gmail@gmail.com</a></p>
                             </div>
-                            <div class="about__contacts-item"><span>Main office: </span> KPU im. Igor Sіkorsky, building
-                                number 1
-                                Building №1 37, Peremogi Avenue, Kyiv, 03056</div>
+                            <div class="about__contacts-item">
+                                <span>Main office: </span> KPU im. Igor Sіkorsky, building number 1 Building №1 37,
+                                Peremogi Avenue, Kyiv, 03056
+                            </div>
                         </div>
                     </div>
-
                 </div>
-
-
 
                 <div class="about__feedback">
                     <h4 class="about__feedback-title">Any questions?</h4>
                     <form class="about__feedback-form" action="">
-                        <input type="text" name="about__name" placeholder="Your name" required>
-                        <input type="tel" name="about__phone" placeholder="Your phone" required>
-                        <input type="submit" value="Сall me back">
+                        <input tabindex="8" type="text" name="about__name" placeholder="Your name" required>
+                        <input tabindex="9" type="tel" name="about__phone" placeholder="Your phone" required>
+                        <input tabindex="10" type="submit" value="Сall me back">
                     </form>
                 </div>
+
             </div>
+
             <h2 class="about__team-title" id="team">Our Team</h2>
             <div class="about__slider">
                 <input checked type="radio" name="slider" id="switch1">
@@ -139,118 +149,110 @@
                 <div class="about__slider-slides">
                     <div class="about__slider-slidesInner">
                         <div class="about__slider-content">
-                            <div class="about__slider-item">
-                                <img src="img/member1.jpg" alt="member 1" id="member1">
+                            <div class="about__slider-item" id="member1">
+                                <img src="img/member1.jpg" alt="member 1">
                                 <div class="about__slider-right">
                                     <h4>Aleksand Milewicz</h4>
                                     <h4>SEO</h4>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
-                                        cumque
-                                        velit ducimus earum. Itaque quam ad repellendus, eum facilis necessitatibus
-                                        ipsum!
-                                        Officia cumque fugit laborum iure minus ducimus voluptatum.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem et
-                                        magni saepe perferendis, quasi doloribus omnis sint harum aspernatur laboriosam
-                                        expedita eum delectus magnam vel quaerat ratione animi accusamus.</p>
+                                    <p> Aleksand has been working in the advertising business since 2006.
+                                        As part of his activities, Andrei participated in the development of new
+                                        analytical reports and industrial benchmarks for Yandex top advertisers, and
+                                        also trained international brand marketing teams on the features of online
+                                        advertising in America. He was directly involved in the development and
+                                        development of new advertising tools and settings within Yandex.</p>
                                     <div class="about__slider-contacts">
-                                        <a href="tel:0800800800">Tel: 0800800800</a>
-                                        <a href="mailto:team@gmail.com">Mail: team@gmail.com</a>
+                                        <a tabindex="11" href="tel:0800800800">Tel: 0600600600</a>
+                                        <a tabindex="12" href="mailto:team@gmail.com">Mail: aleksm@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="about__slider-item">
-                                <img src="img/member2.jpg" alt="member 2" id="member2">
+                            <div class="about__slider-item" id="member2">
+                                <img src="img/member2.jpg" alt="member 2">
                                 <div class="about__slider-right">
                                     <h4>Hugo Blanka</h4>
                                     <h4>Assistant</h4>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
-                                        cumque
-                                        velit ducimus earum. Itaque quam ad repellendus, eum facilis necessitatibus
-                                        ipsum!
-                                        Officia cumque fugit laborum iure minus ducimus voluptatum.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem et
-                                        magni saepe perferendis, quasi doloribus omnis sint harum aspernatur laboriosam
-                                        expedita eum delectus magnam vel quaerat ratione animi accusamus.</p>
+                                    <p> Hugo began his career in digital in 2010 in Yandex, where he specialized in
+                                        developing relationships with key advertisers from various industries.
+                                        Successfully interacted with major brands, including IKEA, OZON, Renaissance
+                                        Insurance, Snow Queen, Groupon, Agoda and many others.
+                                        From 2013 to 2015 headed the financial vertical in the Industrial Department of
+                                        ComDep Yandex, in which, as Indusrty Head, he built business communications with
+                                        the largest American banks. </p>
                                     <div class="about__slider-contacts">
-                                        <a href="tel:0800800800">Tel: 0800800800</a>
-                                        <a href="mailto:team@gmail.com">Mail: team@gmail.com</a>
+                                        <a tabindex="13" href="tel:0800800800">Tel: 0500500500</a>
+                                        <a tabindex="14" href="mailto:team@gmail.com">Mail: hugo@gmail.com</a>
                                     </div>
 
                                 </div>
                             </div>
-                            <div class="about__slider-item">
-                                <img src="img/member3.jpg" alt="member 3" id="member3">
+                            <div class="about__slider-item" id="member3">
+                                <img src="img/member3.jpg" alt="member 3">
                                 <div class="about__slider-right">
                                     <h4>Gorge Rose</h4>
-                                    <h3>Director</h3>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
-                                        cumque
-                                        velit ducimus earum. Itaque quam ad repellendus, eum facilis necessitatibus
-                                        ipsum!
-                                        Officia cumque fugit laborum iure minus ducimus voluptatum.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem et
-                                        magni saepe perferendis, quasi doloribus omnis sint harum aspernatur laboriosam
-                                        expedita eum delectus magnam vel quaerat ratione animi accusamus.</p>
+                                    <h4>Director</h4>
+                                    <p> Since 2013, he worked at Ostrovok.ru, where he was engaged in the placement of
+                                        contextual advertising. In 2014, he headed the contextual advertising department
+                                        at the company and oversaw the development of his own advertising system.
+                                        In 2015, he moved to iProspect, where he focused on contextual advertising for
+                                        the largest e-commerce customers. In 2017, he was appointed as the director of
+                                        the group for work with clients in the field of marketing in search engines.</p>
                                     <div class="about__slider-contacts">
-                                        <a href="tel:0800800800">Tel: 0800800800</a>
-                                        <a href="mailto:team@gmail.com">Mail: team@gmail.com</a>
+                                        <a tabindex="15" href="tel:0800800800">Tel: 0400400400</a>
+                                        <a tabindex="16" href="mailto:team@gmail.com">Mail: the_rose@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="about__slider-item">
-                                <img src="img/member4.jpg" alt="member 4" id="member4">
+                            <div class="about__slider-item" id="member4">
+                                <img src="img/member4.png" alt="member 4">
                                 <div class="about__slider-right">
                                     <h4>Woo Song</h4>
                                     <h4>Manager</h4>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
-                                        cumque
-                                        velit ducimus earum. Itaque quam ad repellendus, eum facilis necessitatibus
-                                        ipsum!
-                                        Officia cumque fugit laborum iure minus ducimus voluptatum.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem et
-                                        magni saepe perferendis, quasi doloribus omnis sint harum aspernatur laboriosam
-                                        expedita eum delectus magnam vel quaerat ratione animi accusamus.</p>
+                                    <p> Woo song graduated from Altai State University with a degree in Organic
+                                        Chemistry. He began his career in Internet marketing at his own Internet agency
+                                        Regioninfo in 1999. In 2008, he moved to Yandex to work as an advertising
+                                        manager in the sales-marketing department of the commercial department.
+                                        In 2011, he headed the SEO department in the AdWatch team. And in 2013 - the
+                                        same department, but already part of iProspect America.</p>
                                     <div class="about__slider-contacts">
-                                        <a href="tel:0800800800">Tel: 0800800800</a>
-                                        <a href="mailto:team@gmail.com">Mail: team@gmail.com</a>
+                                        <a tabindex="17" href="tel:0800800800">Tel: 0300300300</a>
+                                        <a tabindex="18" href="mailto:team@gmail.com">Mail: komwoo@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="about__slider-item">
-                                <img src="img/member5.jpg" alt="member 5" id="member5">
+                            <div class="about__slider-item" id="member5">
+                                <img src="img/member5.jpg" alt="member 5">
                                 <div class="about__slider-right">
                                     <h4>Jonas Brothers</h4>
                                     <h4>Main Trader</h4>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
-                                        cumque
-                                        velit ducimus earum. Itaque quam ad repellendus, eum facilis necessitatibus
-                                        ipsum!
-                                        Officia cumque fugit laborum iure minus ducimus voluptatum.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem et
-                                        magni saepe perferendis, quasi doloribus omnis sint harum aspernatur laboriosam
-                                        expedita eum delectus magnam vel quaerat ratione animi accusamus.</p>
+                                    <p> In 2011, Jonas graduated from the America State Social University with a degree
+                                        in State and Municipal Management, after which from 2011 to 2013 he worked at
+                                        Yandex at the Commercial Services Support Service.
+                                        Since January 2013, he joined AdWatch Isobar as a Digital Performance Manager,
+                                        after which at the end of 2015 he headed the group for working with E-commerce
+                                        clients, and since July 2016, he joined the group for working with video
+                                        advertising iProspect.
+                                    </p>
                                     <div class="about__slider-contacts">
-                                        <a href="tel:0800800800">Tel: 0800800800</a>
-                                        <a href="mailto:team@gmail.com">Mail: team@gmail.com</a>
+                                        <a tabindex="19" href="tel:0800800800">Tel: 0200200200</a>
+                                        <a tabindex="20" href="mailto:team@gmail.com">Mail: jonasbrothers@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="about__slider-item">
-                                <img src="img/member6.jpg" alt="member6" id="member6">
+                            <div class="about__slider-item" id="member6">
+                                <img src="img/member6.jpg" alt="member6">
                                 <div class="about__slider-right">
                                     <h4>Kim Li</h4>
                                     <h4>Team Leader</h4>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reprehenderit
-                                        cumque
-                                        velit ducimus earum. Itaque quam ad repellendus, eum facilis necessitatibus
-                                        ipsum!
-                                        Officia cumque fugit laborum iure minus ducimus voluptatum.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem et
-                                        magni saepe perferendis, quasi doloribus omnis sint harum aspernatur laboriosam
-                                        expedita eum delectus magnam vel quaerat ratione animi accusamus.</p>
+                                    <p> Kim is a bachelor in Business Informatics from the National Research University
+                                        - Higher School of Economics. He began his career in Internet marketing in 2010
+                                        at one of the largest independent American contextual advertising agencies, Ai
+                                        Context. For 5 years he has gone from a junior manager for working with clients
+                                        to the head of advertising automation.
+                                        In July 2016, he joined the iProspect team as Director of Data and Technology.
+                                    </p>
                                     <div class="about__slider-contacts">
-                                        <a href="tel:0800800800">Tel: 0800800800</a>
-                                        <a href="mailto:team@gmail.com">Mail: team@gmail.com</a>
+                                        <a tabindex="21" href="tel:0800800800">Tel: 0100100100</a>
+                                        <a tabindex="22" href="mailto:team@gmail.com">Mail: kimli@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +285,6 @@
         <div class="container">
             <h3 class="advantages__title">Our Advantages</h3>
             <div class="advantages_inner">
-
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
                         <svg id="Layer_5" enable-background="new 0 0 64 64" viewBox="0 0 64 64"
@@ -341,16 +342,13 @@
                                 d="m9 35c0 1.103.897 2 2 2h.279c-.181-.849-.279-1.724-.279-2.616v-1.384c-1.103 0-2 .897-2 2z" />
                         </svg>
                     </div>
-
                     <h4>Competitive</h4>
                     <p>We think through everything, to the smallest detail</p>
                 </div>
 
-
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
                         <?xml version="1.0" encoding="iso-8859-1"?>
-                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480"
                             style="enable-background:new 0 0 480 480;" xml:space="preserve">
@@ -397,7 +395,6 @@
                                 c1.56,0.309,3.009,1.027,4.2,2.08C359.246,157.243,359.47,161.958,356.699,165.005z" />
                         </svg>
                     </div>
-
                     <h4>Profitable investment</h4>
                     <p>We realized every investment in 10 years of work</p>
                 </div>
@@ -432,7 +429,6 @@
                             <path d="m256.398438 12.800781h16v24h-16zm0 0" />
                         </svg>
                     </div>
-
                     <h4>Fast and efficient</h4>
                     <p>We work fast and do not forget about quality</p>
                 </div>
@@ -450,7 +446,6 @@
                             <path class="advantages__svg-fill" d="m51 25h2v2h-2z" />
                         </svg>
                     </div>
-
                     <h4>Strong Team</h4>
                     <p>Our team consists of the best specialists in the world</p>
                 </div>
@@ -495,9 +490,6 @@
                                     d="m438.160156 260.960938c5.507813 0 10-4.492188 10-10 0-5.507813-4.492187-10-10-10-5.507812 0-10 4.492187-10 10 0 5.507812 4.492188 10 10 10zm0 0" />
                             </g>
                         </svg>
-
-
-
                     </div>
                     <h4>Detailed layout</h4>
                     <p>We plan every task in detail</p>
@@ -505,8 +497,6 @@
 
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
-                        <?xml version="1.0" encoding="iso-8859-1"?>
-                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999"
                             style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
@@ -568,9 +558,6 @@
                                 c1.464,1.464,3.384,2.196,5.303,2.196s3.839-0.732,5.303-2.196C398.259,72.518,398.259,67.77,395.33,64.841z" />
 
                         </svg>
-
-
-
                     </div>
                     <h4>Continuous development</h4>
                     <p>We never stand still and look for new ways of development</p>
@@ -584,14 +571,26 @@
             <div class="contacts__inner">
                 <div class="contacts__social">
                     <ul class="contacts__social-list">
-                        <li><a target="_blank" href="https://instagram.com/be3x_voice"><img class="contacts__instagram-logo"
-                                    src="img/instagram-logo.png" alt="instagram logo"> <span>Instagram</span></a></li>
-                        <li><a target="_blank" href="https://facebook.com/be3x_voice"><img class="contacts__facebook-logo"
-                                    src="img/facebook-logo.png" alt="Facebook logo"> <span>Facebook</span></a></li>
-                        <li><a href="skype:richard77352"><img class="contacts__skype-logo" src="img/skype_logo.png"
-                                    alt="Skype logo"> <span>Skype</span></a></li>
-                        <li><a target="_blank" href="https://github.com/maxonchil"><img class="contacts__github-logo"
-                                    src="img/github_logo.png" alt="Github logo"> <span>Github</span></a></li>
+                        <li><a tabindex="23" target="_blank" href="https://instagram.com/be3x_voice">
+                                <img class="contacts__instagram-logo" src="img/instagram_logo.png" alt="instagram logo">
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li><a tabindex="24" target="_blank" href="https://facebook.com/maxonchil">
+                                <img class="contacts__facebook-logo" src="img/facebook_logo.png" alt="Facebook logo">
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li><a tabindex="25" href="skype:richard77352">
+                                <img class="contacts__skype-logo" src="img/skype_logo.png" alt="Skype logo">
+                                <span>Skype</span>
+                            </a>
+                        </li>
+                        <li><a tabindex="26" target="_blank" href="https://github.com/maxonchil">
+                                <img class="contacts__github-logo" src="img/github_logo.png" alt="Github logo">
+                                <span>Github</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="contacts__support">
@@ -599,18 +598,15 @@
                         <li>
                             <h5>Customer service</h5>
                         </li>
-                        <li><a href="tel:0800800800">Click here</a> to contact support</li>
+                        <li><a tabindex="27" href="tel:0800800800">Click here</a> to contact support</li>
                         <li>
-                            <span class="contacts__bold">Work days:</span> 
+                            <span class="contacts__bold">Work days:</span>
                             <ul>
                                 <li><span class="contacts__bold">Monday</span> 12:00 - 21:00</li>
                                 <li><span class="contacts__bold">Tuesday</span> 12:00 - 21:00</li>
                                 <li><span class="contacts__bold">Friday</span> 12:00 - 20:00</li>
                                 <li><span class="contacts__bold">Saturday</span> 13:00 - 20:00</li>
-                                <li><span class="contacts__bold">
-                                    Sunday
-                                    </span>
-                                     14:00 -  20:00</li>
+                                <li><span class="contacts__bold">Sunday</span> 14:00 - 20:00</li>
                             </ul>
                         </li>
 
@@ -618,18 +614,43 @@
                 </div>
                 <div class="contacts__connection">
                     <ul class="contacts__connection-list">
-                        <li><a href="tel:0800800800"><span class="contacts__bold">Tel:</span> 0800800800</a></li>
-                        <li><a href="mailto:gmail@gmail.com"><span class="contacts__bold">Mail:</span> gmail@gmail.com</a></li>
-                        <li><span class="contacts__bold">Main office:</span>  KPU im. Igor Sіkorsky, building
-                            number 1
-                            Building №1 37, Peremogi Avenue, Kyiv, 03056</li>
+                        <li><a tabindex="28" href="tel:0800800800"><span class="contacts__bold">Tel:</span>
+                                0800800800</a></li>
+                        <li><a tabindex="29" href="mailto:gmail@gmail.com"><span class="contacts__bold">Mail:</span>
+                                gmail@gmail.com</a></li>
+                        <li>
+                            <span class="contacts__bold">Main office:</span>
+                            KPU im. Igor Sіkorsky, building number 1 Building №1 37, Peremogi Avenue, Kyiv, 03056
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-
     </section>
+    <footer class="footer">
+        <div class="footer__left">
+            <p>&#169;1998-2019 Alpari Limited - trade brokerage company</p>
+        </div>
+        <div class="footer_rigth">
+            <ul class="footer__right-list">
+                <li><a tabindex="30" target="_blank" href="https://instagram.com/be3x_voice">
+                        <img class="footer__instagram-logo" src="img/instagram_logo.png" alt="instagram logo">
+                    </a>
+                </li>
+                <li>
+                    <a tabindex="31" target="_blank" href="https://facebook.com/maxonchil">
+                        <img class="footer__facebook-logo" src="img/facebook_logo.png" alt="Facebook logo">
+                    </a>
+                </li>
+                <li>
+                    <a tabindex="32" target="_blank"href="https://ru.linkedin.com/in/%D0%B4%D0%B0%D0%B2%D0%B8%D0%B4-%D0%B2%D0%B0%D0%BB%D0%B5%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87-66b661aa?trk=people-guest_profile-result-card_result-card_full-click">
+                        <img class="footer__linkedin-logo" src="img/linkedin_logo.png" alt="Link edin logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

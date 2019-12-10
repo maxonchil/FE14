@@ -34,8 +34,22 @@ body {
 .header__inner {
     display: grid;
     grid-template-columns: 16% 84%;
+    position: relative;
 }
-
+.header__burger-line {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: rgb(136, 7, 7);
+}
+.second-line, .third-line {
+    top:18px;
+}
+.fourth-line {
+    top:28px;
+}
 .header__nav {
     display: grid;
     font-family: "menu font";
@@ -544,6 +558,7 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
 .contacts__inner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom:40px;
 }
 
 .contacts__inner ul {
@@ -564,10 +579,7 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
     color: #000;
 }
 
-.contacts__instagram-logo,
-.contacts__facebook-logo,
-.contacts__github-logo,
-.contacts__skype-logo {
+img[class$="-logo"]{
     width: 15px;
 }
 
@@ -576,23 +588,42 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
 .contacts__connection-list {
     list-style-type: none;
 }
+.contacts__social {
+    align-self:center;
+}
+.contacts__connection {
+    align-self: center;
+}
+.contacts__support-list {
+    border: 2px solid rgb(136, 7, 7);
+    padding: 0;
+}
 
 .contacts__support-list h5 {
     font-size: 1.5em;
     margin: 0;
+    background-color: #393939;
+    border: 2px solid rgb(136, 7, 7);
+    color:#fff;
+    text-align: center;
+
     
 }
 
 .contacts__support-list ul {
     list-style-type: none;
     margin: 0;
+    
+    
 }
 .contacts__support-list a {
     color:rgb(136, 7, 7);
 }
 
 .contacts__support-list li:not(:first-child) {
-    padding: 5px 0;
+    padding: 5px 10px;
+   
+    
 }
 
 
@@ -607,4 +638,24 @@ ul[class^="header__submenu"]:not([class$="-1"]) {
 .contacts__connection-list a {
     text-decoration: none;
     color:#000;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: #393939;
+    color:#fff;
+}
+.footer__right-list {
+    display: flex;
+    flex-direction: row;
+}
+.footer__right-list li{
+list-style-type: none;
+padding: 0 10px;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    .container {
+        width:320px;
+    }
 }
