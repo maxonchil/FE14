@@ -15,13 +15,13 @@
         <div class="container">
             <div class="header__inner">
                 <a tabindex="1" href="#"> <img class="header__logo" src="img/header_logo.png" alt="header logo"></a>
-                <input type="text" name="" id="header__burger">
-                <label for="#header__burder">
-                    <div class="header__burger-line first-line"></div>
-                    <div class="header__burger-line second-line"></div>
-                    <div class="header__burger-line third-line"></div>
-                    <div class="header__burger-line fourth-line"></div>
-                </label>
+                <label for="header__burger">
+                        <div class="header__burger-line first-line"></div>
+                        <div class="header__burger-line second-line"></div>
+                        <div class="header__burger-line third-line"></div>
+                        <div class="header__burger-line fourth-line"></div>
+                    </label>
+                <input type="checkbox" name="burger" id="header__burger">
                 
                 <nav class="header__nav">
                     <ul class="header__menu">
@@ -55,6 +55,53 @@
                         <li class="header__menu-li3"><a tabindex="4" href="#advantages"> Advantages</a></li>
 
                         <li class="header__menu-li4"><a tabindex="5" href="#contacts">Contacts</a>
+                            <ul class="header__submenu4">
+                                <li class="header__submenu-item"><a target="_blank"
+                                        href="https://instagram.com/be3x_voice">Instagram</a></li>
+                                <li class="header__submenu-item"><a target="_blank"
+                                        href="https://facebook.com/maxonchil">Facebook</a></li>
+                                <li class="header__submenu-item"><a href="skype:richard77352">Skype</a></li>
+                                <li class="header__submenu-item"><a target="_blank"
+                                        href="https://github.com/maxonchil">GitHub</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__nav-mobile">
+                    <ul class="header__menu">
+                        <li class="header__menu-li1">
+                                <input type="checkbox" id="header__li1" name="header__li1"> 
+                            <label for="header__li1">Main</label> 
+                            <ul class="header__submenu1">
+                                <li class="header__submenu-item"><a href="#advantages">Our advantages</a></li>
+                                <li class="header__submenu-item "><a href="#team">Team</a></li>
+                                <li class="header__submenu-item "><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="header__menu-li2">
+                                <input type="checkbox" id="header__li2" name="header__li2"> <label for="header__li2">About Us</label> 
+                            <ul class="header__submenu2">
+                                <li class="header__submenu-item"><a href="#about">Our company</a></li>
+                                <li class="header__submenu2-li2 header__submenu-item">
+                                    <a tabindex="7"  href="#team">Team</a>
+                                    <ul class="header__submenu2-1">
+                                        <li class="header__submenu-item"><a href="#member1">Alex Milewicz</a></li>
+                                        <li class="header__submenu-item"><a href="#member2">Hugo Blanka</a></li>
+                                        <li class="header__submenu-item"><a href="#member3">Gorge Rose</a></li>
+                                        <li class="header__submenu-item"><a href="#member4">Woo song</a></li>
+                                        <li class="header__submenu-item"><a href="#member5">Jonas Brothers</a></li>
+                                        <li class="header__submenu-item"><a href="#member6">Kim li</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="header__menu-li3"><a href="#advantages">Advantages</a></li>
+
+                        <li class="header__menu-li4">
+                            <input type="checkbox" id="header__li4" name="header__li4">
+                             <label for="header__li4">Contacts</label> 
                             <ul class="header__submenu4">
                                 <li class="header__submenu-item"><a target="_blank"
                                         href="https://instagram.com/be3x_voice">Instagram</a></li>
@@ -629,6 +676,8 @@
 
     </section>
     <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
         <div class="footer__left">
             <p>&#169;1998-2019 Alpari Limited - trade brokerage company</p>
         </div>
@@ -650,6 +699,8 @@
                 </li>
             </ul>
         </div>
+    </div>
+    </div>
     </footer>
 </body>
 
