@@ -15,13 +15,25 @@
         <div class="container">
             <div class="header__inner">
                 <a tabindex="1" href="#"> <img class="header__logo" src="img/header_logo.png" alt="header logo"></a>
+                <input type="radio" name="header__li1" id="header__burger" checked>
+                <input type="radio" name="header__li1" id="header__burger2" >
+                <input type="radio" id="header__li4" name="header__li1"> 
+                <input type="radio" id="header__li1" name="header__li1"> 
+                <input type="radio" id="header__li2" name="header__li1">
                 <label for="header__burger">
                         <div class="header__burger-line first-line"></div>
                         <div class="header__burger-line second-line"></div>
                         <div class="header__burger-line third-line"></div>
                         <div class="header__burger-line fourth-line"></div>
                     </label>
-                <input type="checkbox" name="burger" id="header__burger">
+                    
+                <label for="header__burger2">
+                        <div class="header__burger-line2 first-line2"></div>
+                        <div class="header__burger-line2 second-line2"></div>
+                        <div class="header__burger-line2 third-line2"></div>
+                        <div class="header__burger-line2 fourth-line2"></div>
+                    </label>
+               
                 
                 <nav class="header__nav">
                     <ul class="header__menu">
@@ -70,7 +82,8 @@
                 <nav class="header__nav-mobile">
                     <ul class="header__menu">
                         <li class="header__menu-li1">
-                                <input type="checkbox" id="header__li1" name="header__li1"> 
+                                
+                                
                             <label for="header__li1">Main</label> 
                             <ul class="header__submenu1">
                                 <li class="header__submenu-item"><a href="#advantages">Our advantages</a></li>
@@ -80,19 +93,12 @@
                         </li>
 
                         <li class="header__menu-li2">
-                                <input type="checkbox" id="header__li2" name="header__li2"> <label for="header__li2">About Us</label> 
+                                 <label for="header__li2">About Us</label> 
                             <ul class="header__submenu2">
                                 <li class="header__submenu-item"><a href="#about">Our company</a></li>
                                 <li class="header__submenu2-li2 header__submenu-item">
-                                    <a tabindex="7"  href="#team">Team</a>
-                                    <ul class="header__submenu2-1">
-                                        <li class="header__submenu-item"><a href="#member1">Alex Milewicz</a></li>
-                                        <li class="header__submenu-item"><a href="#member2">Hugo Blanka</a></li>
-                                        <li class="header__submenu-item"><a href="#member3">Gorge Rose</a></li>
-                                        <li class="header__submenu-item"><a href="#member4">Woo song</a></li>
-                                        <li class="header__submenu-item"><a href="#member5">Jonas Brothers</a></li>
-                                        <li class="header__submenu-item"><a href="#member6">Kim li</a></li>
-                                    </ul>
+                                        <input type="checkbox" id="header__li3" name="header__li3"> 
+                                    <a href="#team">Team</a>
                                 </li>
                             </ul>
                         </li>
@@ -100,7 +106,7 @@
                         <li class="header__menu-li3"><a href="#advantages">Advantages</a></li>
 
                         <li class="header__menu-li4">
-                            <input type="checkbox" id="header__li4" name="header__li4">
+                                
                              <label for="header__li4">Contacts</label> 
                             <ul class="header__submenu4">
                                 <li class="header__submenu-item"><a target="_blank"
