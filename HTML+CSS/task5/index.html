@@ -16,25 +16,25 @@
             <div class="header__inner">
                 <a tabindex="1" href="#"> <img class="header__logo" src="img/header_logo.png" alt="header logo"></a>
                 <input type="radio" name="header__li1" id="header__burger" checked>
-                <input type="radio" name="header__li1" id="header__burger2" >
-                <input type="radio" id="header__li4" name="header__li1"> 
-                <input type="radio" id="header__li1" name="header__li1"> 
+                <input type="radio" name="header__li1" id="header__burger2">
+                <input type="radio" id="header__li4" name="header__li1">
+                <input type="radio" id="header__li1" name="header__li1">
                 <input type="radio" id="header__li2" name="header__li1">
+
                 <label for="header__burger">
-                        <div class="header__burger-line first-line"></div>
-                        <div class="header__burger-line second-line"></div>
-                        <div class="header__burger-line third-line"></div>
-                        <div class="header__burger-line fourth-line"></div>
-                    </label>
-                    
+                    <span class="header__burger-line header__burger-firstLine"></span>
+                    <span class="header__burger-line header__burger-secondLine"></span>
+                    <span class="header__burger-line header__burger-thirdLine"></span>
+                    <span class="header__burger-line header__burger-fourthLine"></span>
+                </label>
+
                 <label for="header__burger2">
-                        <div class="header__burger-line2 first-line2"></div>
-                        <div class="header__burger-line2 second-line2"></div>
-                        <div class="header__burger-line2 third-line2"></div>
-                        <div class="header__burger-line2 fourth-line2"></div>
-                    </label>
-               
-                
+                    <span class="header__burger-line2 header__burger-firstLine2"></span>
+                    <span class="header__burger-line2 header__burger-secondLine2"></span>
+                    <span class="header__burger-line2 header__burger-thirdLine2"></span>
+                    <span class="header__burger-line2 header__burger-fourthLine2"></span>
+                </label>
+
                 <nav class="header__nav">
                     <ul class="header__menu">
                         <li class="header__menu-li1">
@@ -50,8 +50,8 @@
                             <a tabindex="3" href="#about">About us</a>
                             <ul class="header__submenu2">
                                 <li class="header__submenu-item"><a href="#about">Our company</a></li>
-                                <li class="header__submenu2-li2 header__submenu-item"><a tabindex="7"
-                                        href="#team">Team</a>
+                                <li class="header__submenu2-li2 header__submenu-item">
+                                    <a href="#team">Team</a>
                                     <ul class="header__submenu2-1">
                                         <li class="header__submenu-item"><a href="#member1">Alex Milewicz</a></li>
                                         <li class="header__submenu-item"><a href="#member2">Hugo Blanka</a></li>
@@ -68,13 +68,18 @@
 
                         <li class="header__menu-li4"><a tabindex="5" href="#contacts">Contacts</a>
                             <ul class="header__submenu4">
-                                <li class="header__submenu-item"><a target="_blank"
-                                        href="https://instagram.com/be3x_voice">Instagram</a></li>
-                                <li class="header__submenu-item"><a target="_blank"
-                                        href="https://facebook.com/maxonchil">Facebook</a></li>
-                                <li class="header__submenu-item"><a href="skype:richard77352">Skype</a></li>
-                                <li class="header__submenu-item"><a target="_blank"
-                                        href="https://github.com/maxonchil">GitHub</a></li>
+                                <li class="header__submenu-item">
+                                    <a target="_blank" href="https://instagram.com/be3x_voice">Instagram</a>
+                                </li>
+                                <li class="header__submenu-item">
+                                    <a target="_blank" href="https://facebook.com/maxonchil">Facebook</a>
+                                </li>
+                                <li class="header__submenu-item">
+                                    <a href="skype:richard77352">Skype</a>
+                                </li>
+                                <li class="header__submenu-item">
+                                    <a target="_blank" href="https://github.com/maxonchil">GitHub</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -82,9 +87,7 @@
                 <nav class="header__nav-mobile">
                     <ul class="header__menu">
                         <li class="header__menu-li1">
-                                
-                                
-                            <label for="header__li1">Main</label> 
+                            <label for="header__li1">Main</label>
                             <ul class="header__submenu1">
                                 <li class="header__submenu-item"><a href="#advantages">Our advantages</a></li>
                                 <li class="header__submenu-item "><a href="#team">Team</a></li>
@@ -93,11 +96,11 @@
                         </li>
 
                         <li class="header__menu-li2">
-                                 <label for="header__li2">About Us</label> 
+                            <label for="header__li2">About Us</label>
                             <ul class="header__submenu2">
                                 <li class="header__submenu-item"><a href="#about">Our company</a></li>
                                 <li class="header__submenu2-li2 header__submenu-item">
-                                        <input type="checkbox" id="header__li3" name="header__li3"> 
+                                    <input type="checkbox" id="header__li3" name="header__li3">
                                     <a href="#team">Team</a>
                                 </li>
                             </ul>
@@ -106,8 +109,7 @@
                         <li class="header__menu-li3"><a href="#advantages">Advantages</a></li>
 
                         <li class="header__menu-li4">
-                                
-                             <label for="header__li4">Contacts</label> 
+                            <label for="header__li4">Contacts</label>
                             <ul class="header__submenu4">
                                 <li class="header__submenu-item"><a target="_blank"
                                         href="https://instagram.com/be3x_voice">Instagram</a></li>
@@ -157,10 +159,10 @@
                 <div class="about__description">
                     <div class="about__description-text">
                         Alpari - is a company is a global brand and a leader in the cryptocurrency sales and trading
-                        market.
-                        First positions in trust funds. Being a leader is a big responsibility. First of all, in front
-                        of
-                        people who work in Alpari, in front of customers and in front of the society in which we live.
+                        market. First positions in trust funds. Being a leader is a big responsibility. First of all, in
+                        front
+                        of people who work in Alpari, in front of customers and in front of the society in which we
+                        live.
                     </div>
                     <div class="about__description-map">
                         <iframe class="about__map-frame"
@@ -182,7 +184,7 @@
 
                 <div class="about__feedback">
                     <h4 class="about__feedback-title">Any questions?</h4>
-                    <form class="about__feedback-form" action="">
+                    <form class="about__feedback-form" action="#">
                         <input tabindex="8" type="text" name="about__name" placeholder="Your name" required>
                         <input tabindex="9" type="tel" name="about__phone" placeholder="Your phone" required>
                         <input tabindex="10" type="submit" value="Сall me back">
@@ -310,9 +312,7 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
                 <div class="about__slider-controls">
                     <label for="switch1"></label>
@@ -331,7 +331,6 @@
                     <label for="switch6"></label>
                 </div>
             </div>
-
         </div>
     </section>
     <section class="advantages" id="advantages">
@@ -340,8 +339,7 @@
             <div class="advantages_inner">
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
-                        <svg id="Layer_5" enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg enable-background="new 0 0 64 64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                             <path class="advantages__svg-fill"
                                 d="m45.194 11.756c-.06-.298-.1-.598-.129-.903-.014-.147-.038-.291-.044-.44l-12.021 3.278v2.073l12.334-3.363c-.059-.211-.097-.429-.14-.645z" />
                             <path class="advantages__svg-fill"
@@ -401,7 +399,6 @@
 
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
-                        <?xml version="1.0" encoding="iso-8859-1"?>
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480"
                             style="enable-background:new 0 0 480 480;" xml:space="preserve">
@@ -451,7 +448,6 @@
                     <h4>Profitable investment</h4>
                     <p>We realized every investment in 10 years of work</p>
                 </div>
-
 
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
@@ -550,8 +546,8 @@
 
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
-                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999"
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 511.999 511.999"
                             style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
                             <path d="M494.05,152.765c-4.349-6.962-9.899-10.906-16.493-11.716c-10.518-1.298-22.144,5.266-40.137,22.636
                                 c-2.98,2.876-3.064,7.624-0.187,10.604c2.876,2.979,7.624,3.063,10.605,0.187c13.395-12.93,22.779-19.162,27.888-18.539
@@ -684,29 +680,30 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-        <div class="footer__left">
-            <p>&#169;1998-2019 Alpari Limited - trade brokerage company</p>
+                <div class="footer__left">
+                    <p>&#169;1998-2019 Alpari Limited - trade brokerage company</p>
+                </div>
+                <div class="footer_rigth">
+                    <ul class="footer__right-list">
+                        <li><a tabindex="30" target="_blank" href="https://instagram.com/be3x_voice">
+                                <img class="footer__instagram-logo" src="img/instagram_logo.png" alt="instagram logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a tabindex="31" target="_blank" href="https://facebook.com/maxonchil">
+                                <img class="footer__facebook-logo" src="img/facebook_logo.png" alt="Facebook logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a tabindex="32" target="_blank"
+                                href="https://ru.linkedin.com/in/%D0%B4%D0%B0%D0%B2%D0%B8%D0%B4-%D0%B2%D0%B0%D0%BB%D0%B5%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87-66b661aa?trk=people-guest_profile-result-card_result-card_full-click">
+                                <img class="footer__linkedin-logo" src="img/linkedin_logo.png" alt="Link edin logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="footer_rigth">
-            <ul class="footer__right-list">
-                <li><a tabindex="30" target="_blank" href="https://instagram.com/be3x_voice">
-                        <img class="footer__instagram-logo" src="img/instagram_logo.png" alt="instagram logo">
-                    </a>
-                </li>
-                <li>
-                    <a tabindex="31" target="_blank" href="https://facebook.com/maxonchil">
-                        <img class="footer__facebook-logo" src="img/facebook_logo.png" alt="Facebook logo">
-                    </a>
-                </li>
-                <li>
-                    <a tabindex="32" target="_blank"href="https://ru.linkedin.com/in/%D0%B4%D0%B0%D0%B2%D0%B8%D0%B4-%D0%B2%D0%B0%D0%BB%D0%B5%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87-66b661aa?trk=people-guest_profile-result-card_result-card_full-click">
-                        <img class="footer__linkedin-logo" src="img/linkedin_logo.png" alt="Link edin logo">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    </div>
     </footer>
 </body>
 
