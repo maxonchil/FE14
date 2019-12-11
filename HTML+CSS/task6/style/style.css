@@ -239,7 +239,7 @@ header nav li:nth-child(5):before {
     height: 20px;
     background-color: #393939;
     top: -20px;
-    left: 55px;
+    left: 68px;
 }
 
 header nav li:nth-child(5):after {
@@ -250,7 +250,7 @@ header nav li:nth-child(5):after {
     background-color: #393939;
     top: -40px;
     border-radius: 25px 25px 0 0;
-    left: 55px;
+    left: 68px;
 }
 
 header nav li:nth-child(6):before {
@@ -278,7 +278,7 @@ header nav li:nth-child(53):after {
     position: absolute;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
-    width: 256px;
+    width: 283px;
     height: 71px;
     background-color: #941515;
     top: -71px;
@@ -288,7 +288,7 @@ header nav li:nth-child(53):after {
 header nav li:nth-child(53):before {
     content: 'TRY IT';
     position: absolute;
-    width: 260px;
+    width: 283px;
     height: 35px;
     color: #fff;
     top: -55px;
@@ -347,7 +347,7 @@ header nav li:nth-child(7):before {
     height: 20px;
     background-color: #393939;
     top: -20px;
-    left: 55px;
+    left: 64px;
 }
 
 header nav li:nth-child(7):after {
@@ -358,7 +358,7 @@ header nav li:nth-child(7):after {
     background-color: #393939;
     top: -80px;
     border-radius: 25px 25px 0 0;
-    left: 185px;
+    left: 194px;
     -webkit-transform: rotate(130deg);
     transform: rotate(130deg);
 }
@@ -751,7 +751,7 @@ header nav li:nth-child(82) a {
 
 article {
     width: 50%;
-    margin: -107vw auto 0 26vw;
+    margin: -84vw auto 0 26vw;
     background-color: #393939;
     color: #fff;
     border-radius: 50px;
@@ -789,8 +789,8 @@ footer p {
 }
 
 footer>p {
-    width: 602px;
-    margin-top: -28vw;
+    width: 663px;
+    margin-top: -25.5vw;
     margin-left: 26.15vw;
     position: relative;
     padding: 20px;
