@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Diablo font';
+  src: url(../fonts/diabloheavy.ttf); }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #000; }
+
+.main__inner {
+  background: url("../img/back-big.png") no-repeat;
+  width: 809px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 58px;
+  padding-bottom: 98px;
+  margin: 0 auto; }
+  .main__inner .main__left {
+    width: 326px;
+    height: 433px;
+    background: url("../img/bg_item.png"); }
+  .main__inner .main__left-fields {
+    margin-left: 75px;
+    margin-top: 25px; }
+  .main__inner .main__left-field1 {
+    font-family: 'Diablo font';
+    margin-bottom: 5px;
+    width: 178px;
+    height: 21px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: right;
+    background-image: url("../img/money.png");
+    background-repeat: no-repeat;
+    padding-left: 2px; }
+    .main__inner .main__left-field1 img {
+      display: inline;
+      margin-right: 66px; }
+    .main__inner .main__left-field1 span {
+      margin-right: 12px; }
+  .main__inner .main__left-field2 {
+    width: 178px;
+    height: 21px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: 'Diablo font'; }
+    .main__inner .main__left-field2 span {
+      text-transform: capitalize;
+      font-size: 0.9em; }
+
+.main__right {
+  width: 326px;
+  height: 433px;
+  background: url("../img/bg_item-right.png"); }
+
+/*# sourceMappingURL=style.css.map */
