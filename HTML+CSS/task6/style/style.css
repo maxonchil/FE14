@@ -918,9 +918,12 @@ header nav li:nth-child(82) a {
     color: #000;
 }
 
+
+
 article {
     width: 50%;
-    margin: -84vw auto 0 26vw;
+    margin: -86% auto 0 26vw;
+    
     background-color: #393939;
     color: #fff;
     border-radius: 50px;
@@ -929,6 +932,7 @@ article {
     border: 2px solid #fff;
     text-align: center;
 }
+
 
 article section p+p+p {
     margin-top: 90px;
@@ -964,3 +968,30 @@ footer>p {
     position: relative;
     padding: 20px;
 }
+@-moz-document url-prefix() 
+{
+    article {
+    margin-top: -109%;}
+    header h1 {
+        margin: 0 auto 4.7vw 41.3vw;
+    }
+    header nav li:nth-child(53)::after {
+        width: 288px;
+    }
+    header nav li:nth-child(53)::before {
+        width: 289px;
+    }
+    footer > p {
+        margin-top: -25.3vw;
+        width: 666px;
+    }
+    header nav li:nth-child(6)::before {
+        left: -74px;
+    }
+    header nav li:nth-child(81) {
+        margin-top: -122px;
+    }
+    header nav li:nth-child(82) {
+        transform: rotate(7deg);
+    }
+} 
