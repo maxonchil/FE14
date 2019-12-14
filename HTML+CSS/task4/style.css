@@ -217,3 +217,10 @@
   -webkit-transition: .5s;
   transition: .5s;
 }
+
+@-moz-document url-prefix() {
+  .task2__list-item a::after {
+    top: 7px;
+right: -83px;
+  }
+}
