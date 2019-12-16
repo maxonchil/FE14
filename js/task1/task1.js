@@ -1,24 +1,19 @@
-function* generator(i) {
-    // for (let i = 0; y ? i++ : i--; true) {
-    //     yield i;
-    //     yield i + 1;
-    //     yield i + 1;
-    // }
+function* generator(i, y) {
+    let n = 0;
+    if (y === true) {
+        n = 1;
+    } else {
+        n = -1;
+    }
     yield i;
-    yield c;
-    yield b = 0;
-    yield c = 1;
-    yield b + c;
-    yield c = b + c;
-    b = a;
-    yield a = a + b;
-    b = a;
-    yield a = a + b;
-
+    yield i - -n;
+    let
+        prev = 0,
+        curent = n,
+        interim = 0;
+    for (let i = 0; true; i++) {
+        yield interim = curent + prev;
+        prev = curent;
+        curent = interim;
+    }
 }
-let task = generator(0);
-console.log(task.next().value);
-console.log(task.next().value);
-console.log(task.next().value);
-console.log(task.next().value);
-console.log(task.next().value);
