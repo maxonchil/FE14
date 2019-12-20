@@ -1,0 +1,31 @@
+form {
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+}
+input {
+    line-height: 31px;
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+}
+button {
+    width: 50%;
+    margin: 20px;
+    margin: 10px auto 0;
+}
+.result {
+    min-width: 30%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+.success {
+    color:rgb(5, 221, 5);
+}
+.fail {
+    color:rgb(221, 5, 5);
+}
+.last-hint {
+    color:rgb(236, 177, 14);
+}
